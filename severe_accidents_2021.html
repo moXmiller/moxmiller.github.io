@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4731555cf94e8e435596f35df99054f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4731555cf94e8e435596f35df99054f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4731555cf94e8e435596f35df99054f1 = L.map(
+                "map_4731555cf94e8e435596f35df99054f1",
+                {
+                    center: [47.38, 8.55],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cf6633eea749ee11347cdd36d606e922 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cf6633eea749ee11347cdd36d606e922.addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+            var marker_26ddef848f7e3206fcbac21370e47358 = L.marker(
+                [47.384899707865735, 8.542674911521376],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_5131641091939b94c4087b21f275e3a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e099d95ff3159e48ef5f0a009c228e9 = $(`<div id="html_7e099d95ff3159e48ef5f0a009c228e9" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 06h-07h</div>`)[0];
+                popup_5131641091939b94c4087b21f275e3a8.setContent(html_7e099d95ff3159e48ef5f0a009c228e9);
+            
+        
+
+        marker_26ddef848f7e3206fcbac21370e47358.bindPopup(popup_5131641091939b94c4087b21f275e3a8)
+        ;
+
+        
+    
+    
+            var marker_8b38beb5a13af617a0b3cb06c6cb8695 = L.marker(
+                [47.40987682750203, 8.484890024867585],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_629883201ac711d628b04af7a5614091 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_779e4b2ccee03369c5d1ce68c69ceef4 = $(`<div id="html_779e4b2ccee03369c5d1ce68c69ceef4" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 18h-19h</div>`)[0];
+                popup_629883201ac711d628b04af7a5614091.setContent(html_779e4b2ccee03369c5d1ce68c69ceef4);
+            
+        
+
+        marker_8b38beb5a13af617a0b3cb06c6cb8695.bindPopup(popup_629883201ac711d628b04af7a5614091)
+        ;
+
+        
+    
+    
+            var marker_0f333ab4b29f5efee38d77ce7af07cd6 = L.marker(
+                [47.37846407133296, 8.526994527503868],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_298e005d00dc7323ff13a325920d9fee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f9ea34cd4e0dcf3fd702a3cc66fadc8 = $(`<div id="html_4f9ea34cd4e0dcf3fd702a3cc66fadc8" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im November 2021 zwischen 18h-19h</div>`)[0];
+                popup_298e005d00dc7323ff13a325920d9fee.setContent(html_4f9ea34cd4e0dcf3fd702a3cc66fadc8);
+            
+        
+
+        marker_0f333ab4b29f5efee38d77ce7af07cd6.bindPopup(popup_298e005d00dc7323ff13a325920d9fee)
+        ;
+
+        
+    
+    
+            var marker_ecea108432af31a7bb0655ae0aeb1a4f = L.marker(
+                [47.379553443240816, 8.524023839334617],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_6cd188aad0e3d354c57412c6233969fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f1ee8cf562c70da7801bb9ec955a59e = $(`<div id="html_2f1ee8cf562c70da7801bb9ec955a59e" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im April 2021 zwischen 13h-14h</div>`)[0];
+                popup_6cd188aad0e3d354c57412c6233969fb.setContent(html_2f1ee8cf562c70da7801bb9ec955a59e);
+            
+        
+
+        marker_ecea108432af31a7bb0655ae0aeb1a4f.bindPopup(popup_6cd188aad0e3d354c57412c6233969fb)
+        ;
+
+        
+    
+    
+            var marker_1a5b16419f24d59e2b2f5b7ce7f2224a = L.marker(
+                [47.370235005780835, 8.539180153628953],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_113824c5ddd399c22ad5a85d46e43960 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0e7fcafb6a08f9aace447b4b1c8c553 = $(`<div id="html_e0e7fcafb6a08f9aace447b4b1c8c553" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im August 2021 zwischen 13h-14h</div>`)[0];
+                popup_113824c5ddd399c22ad5a85d46e43960.setContent(html_e0e7fcafb6a08f9aace447b4b1c8c553);
+            
+        
+
+        marker_1a5b16419f24d59e2b2f5b7ce7f2224a.bindPopup(popup_113824c5ddd399c22ad5a85d46e43960)
+        ;
+
+        
+    
+    
+            var marker_c2f3e87094dfba4b20493dd5aa01a2e9 = L.marker(
+                [47.3755734349373, 8.557458589013716],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_f07700f04d0693566ce185d99f23599b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65eb92fd5bbbcf2c8377a999cec2b11d = $(`<div id="html_65eb92fd5bbbcf2c8377a999cec2b11d" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Februar 2021 zwischen 01h-02h</div>`)[0];
+                popup_f07700f04d0693566ce185d99f23599b.setContent(html_65eb92fd5bbbcf2c8377a999cec2b11d);
+            
+        
+
+        marker_c2f3e87094dfba4b20493dd5aa01a2e9.bindPopup(popup_f07700f04d0693566ce185d99f23599b)
+        ;
+
+        
+    
+    
+            var marker_65c19c3914bd4575fbaaa46918472cb6 = L.marker(
+                [47.358619790488795, 8.521360499824581],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_5447f2c14c1bc3d58340052a9b36f647 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cde6d01111937b5766acb82ebe37f9f = $(`<div id="html_5cde6d01111937b5766acb82ebe37f9f" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im April 2021 zwischen 13h-14h</div>`)[0];
+                popup_5447f2c14c1bc3d58340052a9b36f647.setContent(html_5cde6d01111937b5766acb82ebe37f9f);
+            
+        
+
+        marker_65c19c3914bd4575fbaaa46918472cb6.bindPopup(popup_5447f2c14c1bc3d58340052a9b36f647)
+        ;
+
+        
+    
+    
+            var marker_d90cc3eea2c75316dfc47414547e42fb = L.marker(
+                [47.3739187812936, 8.520585445559282],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_e1edfa727d66e66d1b9c3af61cc0a98d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_894896ba9af02509c1e2c748e8c0330a = $(`<div id="html_894896ba9af02509c1e2c748e8c0330a" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 12h-13h</div>`)[0];
+                popup_e1edfa727d66e66d1b9c3af61cc0a98d.setContent(html_894896ba9af02509c1e2c748e8c0330a);
+            
+        
+
+        marker_d90cc3eea2c75316dfc47414547e42fb.bindPopup(popup_e1edfa727d66e66d1b9c3af61cc0a98d)
+        ;
+
+        
+    
+    
+            var marker_0b5690c2d82cf3a36fa3c3422fbb4f46 = L.marker(
+                [47.359692640367776, 8.535401476454904],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_0263b3527db211bdb20aa9968410c299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_649a3fc15a5671a48448097090b9f56e = $(`<div id="html_649a3fc15a5671a48448097090b9f56e" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 10h-11h</div>`)[0];
+                popup_0263b3527db211bdb20aa9968410c299.setContent(html_649a3fc15a5671a48448097090b9f56e);
+            
+        
+
+        marker_0b5690c2d82cf3a36fa3c3422fbb4f46.bindPopup(popup_0263b3527db211bdb20aa9968410c299)
+        ;
+
+        
+    
+    
+            var marker_252b71b10c8cd719f9b0909be608efd7 = L.marker(
+                [47.385330689567404, 8.494646071010198],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_8ed6b5bcb192925c4c3d27eb02978c9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_871ba374bd50b61e7aa9a6e9d7307164 = $(`<div id="html_871ba374bd50b61e7aa9a6e9d7307164" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 08h-09h</div>`)[0];
+                popup_8ed6b5bcb192925c4c3d27eb02978c9f.setContent(html_871ba374bd50b61e7aa9a6e9d7307164);
+            
+        
+
+        marker_252b71b10c8cd719f9b0909be608efd7.bindPopup(popup_8ed6b5bcb192925c4c3d27eb02978c9f)
+        ;
+
+        
+    
+    
+            var marker_2036d40f8dd05b90a37345fc11e181ef = L.marker(
+                [47.364402858587624, 8.5665579250096],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_31ffe27f99ddf19c457ae449ec6b8540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bd8f267a7cdb97a3e2b5f7b5249803a = $(`<div id="html_3bd8f267a7cdb97a3e2b5f7b5249803a" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im April 2021 zwischen 18h-19h</div>`)[0];
+                popup_31ffe27f99ddf19c457ae449ec6b8540.setContent(html_3bd8f267a7cdb97a3e2b5f7b5249803a);
+            
+        
+
+        marker_2036d40f8dd05b90a37345fc11e181ef.bindPopup(popup_31ffe27f99ddf19c457ae449ec6b8540)
+        ;
+
+        
+    
+    
+            var marker_526ba60914b54c12d9581a34a6c17e5a = L.marker(
+                [47.3867511387066, 8.547534415256948],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_cd3e005cc65a659dc6b0fb553f129c5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_605701bbf5735fc0e4bcc686130ff3ae = $(`<div id="html_605701bbf5735fc0e4bcc686130ff3ae" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im April 2021 zwischen 17h-18h</div>`)[0];
+                popup_cd3e005cc65a659dc6b0fb553f129c5d.setContent(html_605701bbf5735fc0e4bcc686130ff3ae);
+            
+        
+
+        marker_526ba60914b54c12d9581a34a6c17e5a.bindPopup(popup_cd3e005cc65a659dc6b0fb553f129c5d)
+        ;
+
+        
+    
+    
+            var marker_8b1205199388fb16312ea52dc3de30b0 = L.marker(
+                [47.38723375488293, 8.519385590836308],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_b9fb7d48a438e27000ea2d3203c9e29a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_111e50de6c722ec00516fdfa0369f7d9 = $(`<div id="html_111e50de6c722ec00516fdfa0369f7d9" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Mai 2021 zwischen 04h-05h</div>`)[0];
+                popup_b9fb7d48a438e27000ea2d3203c9e29a.setContent(html_111e50de6c722ec00516fdfa0369f7d9);
+            
+        
+
+        marker_8b1205199388fb16312ea52dc3de30b0.bindPopup(popup_b9fb7d48a438e27000ea2d3203c9e29a)
+        ;
+
+        
+    
+    
+            var marker_38672c3de255c055126690239cddc5a7 = L.marker(
+                [47.40862509570796, 8.539284308376287],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_3233b38823cd8304c9444d6033283aef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48e01523d23c3ec4546b76a05c1e89dd = $(`<div id="html_48e01523d23c3ec4546b76a05c1e89dd" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 09h-10h</div>`)[0];
+                popup_3233b38823cd8304c9444d6033283aef.setContent(html_48e01523d23c3ec4546b76a05c1e89dd);
+            
+        
+
+        marker_38672c3de255c055126690239cddc5a7.bindPopup(popup_3233b38823cd8304c9444d6033283aef)
+        ;
+
+        
+    
+    
+            var marker_6f42d298f6f8e59fe67d51620b94544b = L.marker(
+                [47.38309261794524, 8.497409427892897],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_e577839e6920d6851c7c01c5644af285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c40bc3593cca27ae16d17a15240ee54 = $(`<div id="html_3c40bc3593cca27ae16d17a15240ee54" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 13h-14h</div>`)[0];
+                popup_e577839e6920d6851c7c01c5644af285.setContent(html_3c40bc3593cca27ae16d17a15240ee54);
+            
+        
+
+        marker_6f42d298f6f8e59fe67d51620b94544b.bindPopup(popup_e577839e6920d6851c7c01c5644af285)
+        ;
+
+        
+    
+    
+            var marker_56cedbb1652a83e4592e7aa4d5a0e52b = L.marker(
+                [47.35647245246275, 8.558818357877406],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_4271bf1b96ed37fb967b2a7dcd77d459 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb264d0ebe2a1eefd7ddb230bc2f25be = $(`<div id="html_bb264d0ebe2a1eefd7ddb230bc2f25be" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 18h-19h</div>`)[0];
+                popup_4271bf1b96ed37fb967b2a7dcd77d459.setContent(html_bb264d0ebe2a1eefd7ddb230bc2f25be);
+            
+        
+
+        marker_56cedbb1652a83e4592e7aa4d5a0e52b.bindPopup(popup_4271bf1b96ed37fb967b2a7dcd77d459)
+        ;
+
+        
+    
+    
+            var marker_8bb6a2d6721cd54d6a997cc4aead1cc0 = L.marker(
+                [47.35304901756585, 8.55657564400076],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_ba471270beb6be83a26f2264ba2c52f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fa698143119b067fe117712498b11c9 = $(`<div id="html_4fa698143119b067fe117712498b11c9" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Mai 2021 zwischen 14h-15h</div>`)[0];
+                popup_ba471270beb6be83a26f2264ba2c52f2.setContent(html_4fa698143119b067fe117712498b11c9);
+            
+        
+
+        marker_8bb6a2d6721cd54d6a997cc4aead1cc0.bindPopup(popup_ba471270beb6be83a26f2264ba2c52f2)
+        ;
+
+        
+    
+    
+            var marker_ef557b584962f7d1c927ff67c98c687a = L.marker(
+                [47.395406530784655, 8.514000876301779],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_fda6a94ce253acb3d4a1f0b1f5cb8d0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a82fdd7fd44476553c89aaf38a83b45 = $(`<div id="html_5a82fdd7fd44476553c89aaf38a83b45" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im August 2021 zwischen 07h-08h</div>`)[0];
+                popup_fda6a94ce253acb3d4a1f0b1f5cb8d0e.setContent(html_5a82fdd7fd44476553c89aaf38a83b45);
+            
+        
+
+        marker_ef557b584962f7d1c927ff67c98c687a.bindPopup(popup_fda6a94ce253acb3d4a1f0b1f5cb8d0e)
+        ;
+
+        
+    
+    
+            var marker_60510fadd912dd0210f6c76390d1671b = L.marker(
+                [47.380418490061295, 8.534344738693465],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_c650605b8d761c66c701cc9f10fe5cfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef4db85df2aabbd77cf9a8ac9e1fed23 = $(`<div id="html_ef4db85df2aabbd77cf9a8ac9e1fed23" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im September 2021 zwischen 18h-19h</div>`)[0];
+                popup_c650605b8d761c66c701cc9f10fe5cfb.setContent(html_ef4db85df2aabbd77cf9a8ac9e1fed23);
+            
+        
+
+        marker_60510fadd912dd0210f6c76390d1671b.bindPopup(popup_c650605b8d761c66c701cc9f10fe5cfb)
+        ;
+
+        
+    
+    
+            var marker_6d6f74a7e9f459c453927db9986bcc98 = L.marker(
+                [47.397843955648575, 8.474638615606256],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_c34d589d5321e8aacfb352d7361b508a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb1223246e4f2ff3c77add8375fb694a = $(`<div id="html_eb1223246e4f2ff3c77add8375fb694a" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im März 2021 zwischen 18h-19h</div>`)[0];
+                popup_c34d589d5321e8aacfb352d7361b508a.setContent(html_eb1223246e4f2ff3c77add8375fb694a);
+            
+        
+
+        marker_6d6f74a7e9f459c453927db9986bcc98.bindPopup(popup_c34d589d5321e8aacfb352d7361b508a)
+        ;
+
+        
+    
+    
+            var marker_15693d513769db1b6433119d0a226b76 = L.marker(
+                [47.37481483078647, 8.519994507481822],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_9c8abd79ecf4e0ce0314ac73f30882ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcacf0cbefdc42b637d8039f846c35e4 = $(`<div id="html_dcacf0cbefdc42b637d8039f846c35e4" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 17h-18h</div>`)[0];
+                popup_9c8abd79ecf4e0ce0314ac73f30882ab.setContent(html_dcacf0cbefdc42b637d8039f846c35e4);
+            
+        
+
+        marker_15693d513769db1b6433119d0a226b76.bindPopup(popup_9c8abd79ecf4e0ce0314ac73f30882ab)
+        ;
+
+        
+    
+    
+            var marker_cca6524fcfb07f69ca62e2d31b2deb02 = L.marker(
+                [47.380098501329705, 8.528233036100701],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_cb8c4931b338fb4f33d2950af963e0fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8d2cd434026260a6ae84b03e2877f62 = $(`<div id="html_f8d2cd434026260a6ae84b03e2877f62" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 00h-01h</div>`)[0];
+                popup_cb8c4931b338fb4f33d2950af963e0fe.setContent(html_f8d2cd434026260a6ae84b03e2877f62);
+            
+        
+
+        marker_cca6524fcfb07f69ca62e2d31b2deb02.bindPopup(popup_cb8c4931b338fb4f33d2950af963e0fe)
+        ;
+
+        
+    
+    
+            var marker_7f12aadb1f725f6a97c54b1ca8bf521a = L.marker(
+                [47.38579894350661, 8.517952564229025],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_9047384e3f8e51d7380b596719406a05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ae18cc9e28a165a0d509537d9f528e8 = $(`<div id="html_5ae18cc9e28a165a0d509537d9f528e8" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im September 2021 zwischen 00h-01h</div>`)[0];
+                popup_9047384e3f8e51d7380b596719406a05.setContent(html_5ae18cc9e28a165a0d509537d9f528e8);
+            
+        
+
+        marker_7f12aadb1f725f6a97c54b1ca8bf521a.bindPopup(popup_9047384e3f8e51d7380b596719406a05)
+        ;
+
+        
+    
+    
+            var marker_34f184979642e2c8c43c600854327ce0 = L.marker(
+                [47.36741864440421, 8.544921170963356],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_7fa887cf323cff036f7aed63d943e5e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_272ce5a5acaffd191f0314654a8ad5f0 = $(`<div id="html_272ce5a5acaffd191f0314654a8ad5f0" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Oktober 2021 zwischen 11h-12h</div>`)[0];
+                popup_7fa887cf323cff036f7aed63d943e5e8.setContent(html_272ce5a5acaffd191f0314654a8ad5f0);
+            
+        
+
+        marker_34f184979642e2c8c43c600854327ce0.bindPopup(popup_7fa887cf323cff036f7aed63d943e5e8)
+        ;
+
+        
+    
+    
+            var marker_22be535b283c85e4bc3512d809f5f743 = L.marker(
+                [47.388597965203076, 8.520671562877684],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_78d41bae484e53d2c886f3c6710668cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b43bd290f686b6e2082ee103ebcc3774 = $(`<div id="html_b43bd290f686b6e2082ee103ebcc3774" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Oktober 2021 zwischen 01h-02h</div>`)[0];
+                popup_78d41bae484e53d2c886f3c6710668cd.setContent(html_b43bd290f686b6e2082ee103ebcc3774);
+            
+        
+
+        marker_22be535b283c85e4bc3512d809f5f743.bindPopup(popup_78d41bae484e53d2c886f3c6710668cd)
+        ;
+
+        
+    
+    
+            var marker_71686f50885ecbba32b9f1dad09dd22a = L.marker(
+                [47.374943088983976, 8.516858777477662],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_f78884aae29fcadecf33b9b08b887737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e69801e0c4640731d26787dc25c01c83 = $(`<div id="html_e69801e0c4640731d26787dc25c01c83" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Februar 2021 zwischen 23h-00h</div>`)[0];
+                popup_f78884aae29fcadecf33b9b08b887737.setContent(html_e69801e0c4640731d26787dc25c01c83);
+            
+        
+
+        marker_71686f50885ecbba32b9f1dad09dd22a.bindPopup(popup_f78884aae29fcadecf33b9b08b887737)
+        ;
+
+        
+    
+    
+            var marker_976776661b6561a8952cb5c48642f4c4 = L.marker(
+                [47.376807729003225, 8.513678603301953],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_749011da2300d7876b81bfae3ea61894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9c43e9f32c16f97381ea7471b31d08a = $(`<div id="html_c9c43e9f32c16f97381ea7471b31d08a" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 13h-14h</div>`)[0];
+                popup_749011da2300d7876b81bfae3ea61894.setContent(html_c9c43e9f32c16f97381ea7471b31d08a);
+            
+        
+
+        marker_976776661b6561a8952cb5c48642f4c4.bindPopup(popup_749011da2300d7876b81bfae3ea61894)
+        ;
+
+        
+    
+    
+            var marker_23bc5d252aa30e27c1ed59a78a5cf076 = L.marker(
+                [47.36322580501319, 8.549719380065138],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_fedd7ab88a40be1964e544e6ef1dd1ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e53907c6ed078f889dd5e40ce070ff96 = $(`<div id="html_e53907c6ed078f889dd5e40ce070ff96" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Mai 2021 zwischen 16h-17h</div>`)[0];
+                popup_fedd7ab88a40be1964e544e6ef1dd1ad.setContent(html_e53907c6ed078f889dd5e40ce070ff96);
+            
+        
+
+        marker_23bc5d252aa30e27c1ed59a78a5cf076.bindPopup(popup_fedd7ab88a40be1964e544e6ef1dd1ad)
+        ;
+
+        
+    
+    
+            var marker_d49091867f93881ff0776a9251def586 = L.marker(
+                [47.39155187676503, 8.534613416855155],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_8465bf8b8fb9c2ccee529f687057fe11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38c84045ccaaeac9cd1caf73a09215a2 = $(`<div id="html_38c84045ccaaeac9cd1caf73a09215a2" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 18h-19h</div>`)[0];
+                popup_8465bf8b8fb9c2ccee529f687057fe11.setContent(html_38c84045ccaaeac9cd1caf73a09215a2);
+            
+        
+
+        marker_d49091867f93881ff0776a9251def586.bindPopup(popup_8465bf8b8fb9c2ccee529f687057fe11)
+        ;
+
+        
+    
+    
+            var marker_7ad754d85f8449747265d7986ca5e578 = L.marker(
+                [47.41594768285183, 8.566284574431613],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_bd0e857a9d7f4bc6ba4889654cb19db4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e6f170ed9d079e7c617b17ff63dc759 = $(`<div id="html_0e6f170ed9d079e7c617b17ff63dc759" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 13h-14h</div>`)[0];
+                popup_bd0e857a9d7f4bc6ba4889654cb19db4.setContent(html_0e6f170ed9d079e7c617b17ff63dc759);
+            
+        
+
+        marker_7ad754d85f8449747265d7986ca5e578.bindPopup(popup_bd0e857a9d7f4bc6ba4889654cb19db4)
+        ;
+
+        
+    
+    
+            var marker_3bd9bba1735ad17bb24f0bcfa2ea6949 = L.marker(
+                [47.37798045650236, 8.508471412141805],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_e08841d030256fe81e3810df06bf2467 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65b04f5a6d685276107ff4ddb485ff89 = $(`<div id="html_65b04f5a6d685276107ff4ddb485ff89" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 21h-22h</div>`)[0];
+                popup_e08841d030256fe81e3810df06bf2467.setContent(html_65b04f5a6d685276107ff4ddb485ff89);
+            
+        
+
+        marker_3bd9bba1735ad17bb24f0bcfa2ea6949.bindPopup(popup_e08841d030256fe81e3810df06bf2467)
+        ;
+
+        
+    
+    
+            var marker_abb7f680f7f96a8b3917c65fe37fd0c5 = L.marker(
+                [47.36502563118672, 8.553371280230106],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_40142e964f3beded770fdcccf29cdd75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_808de0ee8b2be389f5d2b75ec228260d = $(`<div id="html_808de0ee8b2be389f5d2b75ec228260d" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im August 2021 zwischen 12h-13h</div>`)[0];
+                popup_40142e964f3beded770fdcccf29cdd75.setContent(html_808de0ee8b2be389f5d2b75ec228260d);
+            
+        
+
+        marker_abb7f680f7f96a8b3917c65fe37fd0c5.bindPopup(popup_40142e964f3beded770fdcccf29cdd75)
+        ;
+
+        
+    
+    
+            var marker_e0426409c40ec72962928a410784aa68 = L.marker(
+                [47.378512271704125, 8.54558845401664],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_a3ffb71c898d3fb6be0bdf837ded9bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5cedecbfddc34f8c5285a34185e0f94 = $(`<div id="html_e5cedecbfddc34f8c5285a34185e0f94" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Dezember 2021 zwischen 09h-10h</div>`)[0];
+                popup_a3ffb71c898d3fb6be0bdf837ded9bb7.setContent(html_e5cedecbfddc34f8c5285a34185e0f94);
+            
+        
+
+        marker_e0426409c40ec72962928a410784aa68.bindPopup(popup_a3ffb71c898d3fb6be0bdf837ded9bb7)
+        ;
+
+        
+    
+    
+            var marker_f3e845ca8c4f50f38be9cface332ca12 = L.marker(
+                [47.38939107860172, 8.512793351721244],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_f529b7ba532f9053d6cc9a36ece73357 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5a47c4b4ed63f03dd3fd31ef97707eb = $(`<div id="html_a5a47c4b4ed63f03dd3fd31ef97707eb" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im März 2021 zwischen 17h-18h</div>`)[0];
+                popup_f529b7ba532f9053d6cc9a36ece73357.setContent(html_a5a47c4b4ed63f03dd3fd31ef97707eb);
+            
+        
+
+        marker_f3e845ca8c4f50f38be9cface332ca12.bindPopup(popup_f529b7ba532f9053d6cc9a36ece73357)
+        ;
+
+        
+    
+    
+            var marker_668b24a2dcfdd8af723a4345b8f351de = L.marker(
+                [47.364327136970225, 8.537085536814331],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_c4dcc24df82cec6e2413f7485954db87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dc56e5d43a0d0e477ef96818adc7204 = $(`<div id="html_9dc56e5d43a0d0e477ef96818adc7204" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im April 2021 zwischen 22h-23h</div>`)[0];
+                popup_c4dcc24df82cec6e2413f7485954db87.setContent(html_9dc56e5d43a0d0e477ef96818adc7204);
+            
+        
+
+        marker_668b24a2dcfdd8af723a4345b8f351de.bindPopup(popup_c4dcc24df82cec6e2413f7485954db87)
+        ;
+
+        
+    
+    
+            var marker_92668c4adb6ed07378af23dc5147d8bf = L.marker(
+                [47.3738520753528, 8.542843333723422],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_3f81519a303deabb540a9ce624ff8378 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68584c99624095454bd081b95f890fe1 = $(`<div id="html_68584c99624095454bd081b95f890fe1" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 14h-15h</div>`)[0];
+                popup_3f81519a303deabb540a9ce624ff8378.setContent(html_68584c99624095454bd081b95f890fe1);
+            
+        
+
+        marker_92668c4adb6ed07378af23dc5147d8bf.bindPopup(popup_3f81519a303deabb540a9ce624ff8378)
+        ;
+
+        
+    
+    
+            var marker_a2105fe6c7fe4613e6db64b9d5a09101 = L.marker(
+                [47.343561498362085, 8.519479943848209],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_f0635fb390987de4eb46f60ae656de47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f817f059fef2c2a945115b67f11e2e8 = $(`<div id="html_2f817f059fef2c2a945115b67f11e2e8" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 16h-17h</div>`)[0];
+                popup_f0635fb390987de4eb46f60ae656de47.setContent(html_2f817f059fef2c2a945115b67f11e2e8);
+            
+        
+
+        marker_a2105fe6c7fe4613e6db64b9d5a09101.bindPopup(popup_f0635fb390987de4eb46f60ae656de47)
+        ;
+
+        
+    
+    
+            var marker_cee8d3028c4b5466f10a1edb275cd1b1 = L.marker(
+                [47.36603326963502, 8.562633720886708],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_c0b24ff2d4343cacd0f67fb87a51b97a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_158b88d73d3b494091dc12a52a9acc65 = $(`<div id="html_158b88d73d3b494091dc12a52a9acc65" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 15h-16h</div>`)[0];
+                popup_c0b24ff2d4343cacd0f67fb87a51b97a.setContent(html_158b88d73d3b494091dc12a52a9acc65);
+            
+        
+
+        marker_cee8d3028c4b5466f10a1edb275cd1b1.bindPopup(popup_c0b24ff2d4343cacd0f67fb87a51b97a)
+        ;
+
+        
+    
+    
+            var marker_378e9728b1fbaf8470919f77fa398d21 = L.marker(
+                [47.392878044070656, 8.522758681427216],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_09420621c77b930cd0c23eeb231cf1f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_161840282410ce386f2ac80b8512e29b = $(`<div id="html_161840282410ce386f2ac80b8512e29b" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im August 2021 zwischen 08h-09h</div>`)[0];
+                popup_09420621c77b930cd0c23eeb231cf1f0.setContent(html_161840282410ce386f2ac80b8512e29b);
+            
+        
+
+        marker_378e9728b1fbaf8470919f77fa398d21.bindPopup(popup_09420621c77b930cd0c23eeb231cf1f0)
+        ;
+
+        
+    
+    
+            var marker_cefd4fd8f008d4504f82ee09190814d2 = L.marker(
+                [47.364715937708425, 8.554701988839069],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_7d2b3bd78f2438def0f2d33a72c306af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af4da6a56a509b121dab26da65ed4b1b = $(`<div id="html_af4da6a56a509b121dab26da65ed4b1b" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 17h-18h</div>`)[0];
+                popup_7d2b3bd78f2438def0f2d33a72c306af.setContent(html_af4da6a56a509b121dab26da65ed4b1b);
+            
+        
+
+        marker_cefd4fd8f008d4504f82ee09190814d2.bindPopup(popup_7d2b3bd78f2438def0f2d33a72c306af)
+        ;
+
+        
+    
+    
+            var marker_90edb7f4254665cc6691351a390c377f = L.marker(
+                [47.3860961513854, 8.565030371243179],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_9d146619416d1a0ac2d9569526dfec74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0591e7c22702ea45de18f37de4c34e1 = $(`<div id="html_d0591e7c22702ea45de18f37de4c34e1" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Mai 2021 zwischen 17h-18h</div>`)[0];
+                popup_9d146619416d1a0ac2d9569526dfec74.setContent(html_d0591e7c22702ea45de18f37de4c34e1);
+            
+        
+
+        marker_90edb7f4254665cc6691351a390c377f.bindPopup(popup_9d146619416d1a0ac2d9569526dfec74)
+        ;
+
+        
+    
+    
+            var marker_4c281e8d426980b6fdb3f25f8a818dd7 = L.marker(
+                [47.39810471158037, 8.594177744078724],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_1a34da511313113c17a504a72eafaefa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00692a64aa1618cb23b635d7a4624777 = $(`<div id="html_00692a64aa1618cb23b635d7a4624777" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im November 2021 zwischen 21h-22h</div>`)[0];
+                popup_1a34da511313113c17a504a72eafaefa.setContent(html_00692a64aa1618cb23b635d7a4624777);
+            
+        
+
+        marker_4c281e8d426980b6fdb3f25f8a818dd7.bindPopup(popup_1a34da511313113c17a504a72eafaefa)
+        ;
+
+        
+    
+    
+            var marker_9496c26932dde6cf9e98b12f88e0e582 = L.marker(
+                [47.40527498716557, 8.495372658288003],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_ef953b0311b683ced645487eda60b277 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_397bda8874f1de0505e698cec0c08462 = $(`<div id="html_397bda8874f1de0505e698cec0c08462" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im September 2021 zwischen 09h-10h</div>`)[0];
+                popup_ef953b0311b683ced645487eda60b277.setContent(html_397bda8874f1de0505e698cec0c08462);
+            
+        
+
+        marker_9496c26932dde6cf9e98b12f88e0e582.bindPopup(popup_ef953b0311b683ced645487eda60b277)
+        ;
+
+        
+    
+    
+            var marker_2798d9d986de5938630723a4a536b7a4 = L.marker(
+                [47.379727521059394, 8.52751032337638],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_17366bf62f77babb5ba04c20492415be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0139dc4ef6eaaed6cbf74d10d73fbf5c = $(`<div id="html_0139dc4ef6eaaed6cbf74d10d73fbf5c" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im September 2021 zwischen 21h-22h</div>`)[0];
+                popup_17366bf62f77babb5ba04c20492415be.setContent(html_0139dc4ef6eaaed6cbf74d10d73fbf5c);
+            
+        
+
+        marker_2798d9d986de5938630723a4a536b7a4.bindPopup(popup_17366bf62f77babb5ba04c20492415be)
+        ;
+
+        
+    
+    
+            var marker_6e8d509137a87381bc212b18015c1196 = L.marker(
+                [47.37137188315999, 8.547280683120762],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_5128a7246dd7e643bd71ac29d37eedb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00ae738bf6f648ee6b46c7f11ba7cafd = $(`<div id="html_00ae738bf6f648ee6b46c7f11ba7cafd" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Januar 2021 zwischen 17h-18h</div>`)[0];
+                popup_5128a7246dd7e643bd71ac29d37eedb3.setContent(html_00ae738bf6f648ee6b46c7f11ba7cafd);
+            
+        
+
+        marker_6e8d509137a87381bc212b18015c1196.bindPopup(popup_5128a7246dd7e643bd71ac29d37eedb3)
+        ;
+
+        
+    
+    
+            var marker_6ea0c01ef13e69a17a534bca4abc5fea = L.marker(
+                [47.38154848239548, 8.513641795116234],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_333c00b4c354d0f7121e52b5e518ba00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_818523fe8c6c622f4fed16f80676eb35 = $(`<div id="html_818523fe8c6c622f4fed16f80676eb35" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im April 2021 zwischen 13h-14h</div>`)[0];
+                popup_333c00b4c354d0f7121e52b5e518ba00.setContent(html_818523fe8c6c622f4fed16f80676eb35);
+            
+        
+
+        marker_6ea0c01ef13e69a17a534bca4abc5fea.bindPopup(popup_333c00b4c354d0f7121e52b5e518ba00)
+        ;
+
+        
+    
+    
+            var marker_f8170c660904174b974b56dd630d229a = L.marker(
+                [47.37026644443872, 8.518697332897538],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_4e4006e7f6762478eba5400521560b7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4bc69d517cf52cd3e5d2abf6869bb25 = $(`<div id="html_e4bc69d517cf52cd3e5d2abf6869bb25" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im März 2021 zwischen 10h-11h</div>`)[0];
+                popup_4e4006e7f6762478eba5400521560b7b.setContent(html_e4bc69d517cf52cd3e5d2abf6869bb25);
+            
+        
+
+        marker_f8170c660904174b974b56dd630d229a.bindPopup(popup_4e4006e7f6762478eba5400521560b7b)
+        ;
+
+        
+    
+    
+            var marker_3d2781605589c0113907d201e4e6af24 = L.marker(
+                [47.426957074774755, 8.506658625097781],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_a67e4f009cfb873de8eac29c3107dd3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba557a3d566399139a4f1ea102be06c2 = $(`<div id="html_ba557a3d566399139a4f1ea102be06c2" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Februar 2021 zwischen 22h-23h</div>`)[0];
+                popup_a67e4f009cfb873de8eac29c3107dd3a.setContent(html_ba557a3d566399139a4f1ea102be06c2);
+            
+        
+
+        marker_3d2781605589c0113907d201e4e6af24.bindPopup(popup_a67e4f009cfb873de8eac29c3107dd3a)
+        ;
+
+        
+    
+    
+            var marker_01070cff002fe54cba76b54ed2485d4c = L.marker(
+                [47.36442618144845, 8.557688023107143],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_6e5db57158f0c72ec87b913bc7176c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37ddd075281db9dc5ee0cb02a671ed66 = $(`<div id="html_37ddd075281db9dc5ee0cb02a671ed66" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im November 2021 zwischen 18h-19h</div>`)[0];
+                popup_6e5db57158f0c72ec87b913bc7176c0f.setContent(html_37ddd075281db9dc5ee0cb02a671ed66);
+            
+        
+
+        marker_01070cff002fe54cba76b54ed2485d4c.bindPopup(popup_6e5db57158f0c72ec87b913bc7176c0f)
+        ;
+
+        
+    
+    
+            var marker_f7b301c22c10c3bca780663e88d71315 = L.marker(
+                [47.386349305875136, 8.496374820789969],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_33ce66111360220c096050bd4073ac60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a27a6c6959cfbb75ee9a49073d874675 = $(`<div id="html_a27a6c6959cfbb75ee9a49073d874675" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 16h-17h</div>`)[0];
+                popup_33ce66111360220c096050bd4073ac60.setContent(html_a27a6c6959cfbb75ee9a49073d874675);
+            
+        
+
+        marker_f7b301c22c10c3bca780663e88d71315.bindPopup(popup_33ce66111360220c096050bd4073ac60)
+        ;
+
+        
+    
+    
+            var marker_2969ab6e5a7f184243ae38e8b400f2da = L.marker(
+                [47.37730296957643, 8.541299236187728],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_3f760d7a3226df8163efd401cf342d17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_101478bb76e047ac9686e4b2197706ee = $(`<div id="html_101478bb76e047ac9686e4b2197706ee" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Januar 2021 zwischen 17h-18h</div>`)[0];
+                popup_3f760d7a3226df8163efd401cf342d17.setContent(html_101478bb76e047ac9686e4b2197706ee);
+            
+        
+
+        marker_2969ab6e5a7f184243ae38e8b400f2da.bindPopup(popup_3f760d7a3226df8163efd401cf342d17)
+        ;
+
+        
+    
+    
+            var marker_297aaaf3e13c3d20aadae2a82c0e7fe4 = L.marker(
+                [47.39062692244831, 8.524924933395017],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_1dc04815eb2fbce030a4bb871fa56747 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d667fb58e26e7b1458742e6a8736176e = $(`<div id="html_d667fb58e26e7b1458742e6a8736176e" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im April 2021 zwischen 00h-01h</div>`)[0];
+                popup_1dc04815eb2fbce030a4bb871fa56747.setContent(html_d667fb58e26e7b1458742e6a8736176e);
+            
+        
+
+        marker_297aaaf3e13c3d20aadae2a82c0e7fe4.bindPopup(popup_1dc04815eb2fbce030a4bb871fa56747)
+        ;
+
+        
+    
+    
+            var marker_be045e7b86b629bd2223546c9b306e44 = L.marker(
+                [47.35843646289485, 8.576902908374077],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_9bd4a50b046962d29909161c7bf358f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_443ba525663b83b9903a038f7abd9144 = $(`<div id="html_443ba525663b83b9903a038f7abd9144" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Mai 2021 zwischen 07h-08h</div>`)[0];
+                popup_9bd4a50b046962d29909161c7bf358f9.setContent(html_443ba525663b83b9903a038f7abd9144);
+            
+        
+
+        marker_be045e7b86b629bd2223546c9b306e44.bindPopup(popup_9bd4a50b046962d29909161c7bf358f9)
+        ;
+
+        
+    
+    
+            var marker_3a78b22a07569dd94ffbf754df86ef39 = L.marker(
+                [47.39007721162277, 8.522158625012608],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_e39cbb2941e08a61f50ebf9e6c158870 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3e7bbf02a7cd9cc83b431f7a33617f7 = $(`<div id="html_e3e7bbf02a7cd9cc83b431f7a33617f7" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 17h-18h</div>`)[0];
+                popup_e39cbb2941e08a61f50ebf9e6c158870.setContent(html_e3e7bbf02a7cd9cc83b431f7a33617f7);
+            
+        
+
+        marker_3a78b22a07569dd94ffbf754df86ef39.bindPopup(popup_e39cbb2941e08a61f50ebf9e6c158870)
+        ;
+
+        
+    
+    
+            var marker_e8e6680ee62b830327f3cc589666fe73 = L.marker(
+                [47.371451047318125, 8.550274820521802],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_2c06f38e3c1c132259585fd9732683b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b3a40e8c713a6832b5f3c7b8a42401a = $(`<div id="html_2b3a40e8c713a6832b5f3c7b8a42401a" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 14h-15h</div>`)[0];
+                popup_2c06f38e3c1c132259585fd9732683b0.setContent(html_2b3a40e8c713a6832b5f3c7b8a42401a);
+            
+        
+
+        marker_e8e6680ee62b830327f3cc589666fe73.bindPopup(popup_2c06f38e3c1c132259585fd9732683b0)
+        ;
+
+        
+    
+    
+            var marker_0ecef10bc9ed48a221546fbcf87d4c4e = L.marker(
+                [47.35578457424004, 8.54994819941664],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_b603fb22e6572596d4bfab81b8482b98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dcb903099fafea6651da5579bcf352f = $(`<div id="html_6dcb903099fafea6651da5579bcf352f" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Januar 2021 zwischen 17h-18h</div>`)[0];
+                popup_b603fb22e6572596d4bfab81b8482b98.setContent(html_6dcb903099fafea6651da5579bcf352f);
+            
+        
+
+        marker_0ecef10bc9ed48a221546fbcf87d4c4e.bindPopup(popup_b603fb22e6572596d4bfab81b8482b98)
+        ;
+
+        
+    
+    
+            var marker_850f68398c747df83c81a57a81081342 = L.marker(
+                [47.39232574837103, 8.502825133315485],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_fd9d553fd140b8dd7866636ea0f1f473 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ab2ed993fcf4c576bc29cfc5a42008d = $(`<div id="html_1ab2ed993fcf4c576bc29cfc5a42008d" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 09h-10h</div>`)[0];
+                popup_fd9d553fd140b8dd7866636ea0f1f473.setContent(html_1ab2ed993fcf4c576bc29cfc5a42008d);
+            
+        
+
+        marker_850f68398c747df83c81a57a81081342.bindPopup(popup_fd9d553fd140b8dd7866636ea0f1f473)
+        ;
+
+        
+    
+    
+            var marker_a2613b5083b3e044f44857c5987adedd = L.marker(
+                [47.41052299646367, 8.54588267985706],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_bf2508738a8b2d6c5a3a767226f6d245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8d4722b25f49bcd944ae3c991fdf1a5 = $(`<div id="html_e8d4722b25f49bcd944ae3c991fdf1a5" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Oktober 2021 zwischen 15h-16h</div>`)[0];
+                popup_bf2508738a8b2d6c5a3a767226f6d245.setContent(html_e8d4722b25f49bcd944ae3c991fdf1a5);
+            
+        
+
+        marker_a2613b5083b3e044f44857c5987adedd.bindPopup(popup_bf2508738a8b2d6c5a3a767226f6d245)
+        ;
+
+        
+    
+    
+            var marker_d946ca003f96312fed05ddcfaeecc21b = L.marker(
+                [47.41437492562056, 8.551289977784679],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_6b1697757726f4a94c0846bb3f8c4269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acaaab4cf930d9f9ab58850abe873979 = $(`<div id="html_acaaab4cf930d9f9ab58850abe873979" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im November 2021 zwischen 22h-23h</div>`)[0];
+                popup_6b1697757726f4a94c0846bb3f8c4269.setContent(html_acaaab4cf930d9f9ab58850abe873979);
+            
+        
+
+        marker_d946ca003f96312fed05ddcfaeecc21b.bindPopup(popup_6b1697757726f4a94c0846bb3f8c4269)
+        ;
+
+        
+    
+    
+            var marker_d5b50cfbefbfbe6998b9b655120ba64e = L.marker(
+                [47.361972289479425, 8.560284271617677],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_034f78aeaad8151b0c8d98aae8ab26af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fe6d84add82f468edb7a32cab39a24b = $(`<div id="html_4fe6d84add82f468edb7a32cab39a24b" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im März 2021 zwischen 08h-09h</div>`)[0];
+                popup_034f78aeaad8151b0c8d98aae8ab26af.setContent(html_4fe6d84add82f468edb7a32cab39a24b);
+            
+        
+
+        marker_d5b50cfbefbfbe6998b9b655120ba64e.bindPopup(popup_034f78aeaad8151b0c8d98aae8ab26af)
+        ;
+
+        
+    
+    
+            var marker_afe77fbb808a259b3cc0745d93a6813e = L.marker(
+                [47.39677879175819, 8.507643364354632],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_03ecaa50c8c714ae5eb0db641886e03c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff21b5f1d798476fff56c4da7511ff6d = $(`<div id="html_ff21b5f1d798476fff56c4da7511ff6d" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 21h-22h</div>`)[0];
+                popup_03ecaa50c8c714ae5eb0db641886e03c.setContent(html_ff21b5f1d798476fff56c4da7511ff6d);
+            
+        
+
+        marker_afe77fbb808a259b3cc0745d93a6813e.bindPopup(popup_03ecaa50c8c714ae5eb0db641886e03c)
+        ;
+
+        
+    
+    
+            var marker_de4f4b708208421537bd430fc2823929 = L.marker(
+                [47.3790198316403, 8.545188463344138],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_2eb15b1e7b74653e9f5dbe3be0facc6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6708e7944ca230ba96b9e383055be5d = $(`<div id="html_e6708e7944ca230ba96b9e383055be5d" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Oktober 2021 zwischen 02h-03h</div>`)[0];
+                popup_2eb15b1e7b74653e9f5dbe3be0facc6c.setContent(html_e6708e7944ca230ba96b9e383055be5d);
+            
+        
+
+        marker_de4f4b708208421537bd430fc2823929.bindPopup(popup_2eb15b1e7b74653e9f5dbe3be0facc6c)
+        ;
+
+        
+    
+    
+            var marker_45d21449e905d14d04dee5d218b59e22 = L.marker(
+                [47.37915295914074, 8.486538208777981],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_10c6d5768049bd66186d5d491d3f3f7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf6feb07176e7070580a5bc0f619def5 = $(`<div id="html_cf6feb07176e7070580a5bc0f619def5" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Dezember 2021 zwischen 08h-09h</div>`)[0];
+                popup_10c6d5768049bd66186d5d491d3f3f7f.setContent(html_cf6feb07176e7070580a5bc0f619def5);
+            
+        
+
+        marker_45d21449e905d14d04dee5d218b59e22.bindPopup(popup_10c6d5768049bd66186d5d491d3f3f7f)
+        ;
+
+        
+    
+    
+            var marker_96d56ba08b0bf6050f82236636db08a4 = L.marker(
+                [47.38254856252261, 8.529779679761582],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_7e8f8b616e60d5d5de8b83d395285d62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1089c1702f31fa659df714d235e07523 = $(`<div id="html_1089c1702f31fa659df714d235e07523" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im November 2021 zwischen 19h-20h</div>`)[0];
+                popup_7e8f8b616e60d5d5de8b83d395285d62.setContent(html_1089c1702f31fa659df714d235e07523);
+            
+        
+
+        marker_96d56ba08b0bf6050f82236636db08a4.bindPopup(popup_7e8f8b616e60d5d5de8b83d395285d62)
+        ;
+
+        
+    
+    
+            var marker_54033d19d9fd562794ab90fccbdd0489 = L.marker(
+                [47.39204985602697, 8.532371806157476],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_b0625e10bdfee22242712507bf9a01a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_360f08d6dec74b8df63a8933cfe77749 = $(`<div id="html_360f08d6dec74b8df63a8933cfe77749" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 18h-19h</div>`)[0];
+                popup_b0625e10bdfee22242712507bf9a01a6.setContent(html_360f08d6dec74b8df63a8933cfe77749);
+            
+        
+
+        marker_54033d19d9fd562794ab90fccbdd0489.bindPopup(popup_b0625e10bdfee22242712507bf9a01a6)
+        ;
+
+        
+    
+    
+            var marker_d864b96c6c250785b163a1288209dbee = L.marker(
+                [47.36280360703481, 8.53554490852407],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_72dc5b6a683d207711137a491bbe6e50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0294edc96bee19df0690ad117372ec43 = $(`<div id="html_0294edc96bee19df0690ad117372ec43" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 08h-09h</div>`)[0];
+                popup_72dc5b6a683d207711137a491bbe6e50.setContent(html_0294edc96bee19df0690ad117372ec43);
+            
+        
+
+        marker_d864b96c6c250785b163a1288209dbee.bindPopup(popup_72dc5b6a683d207711137a491bbe6e50)
+        ;
+
+        
+    
+    
+            var marker_745152578660e51c37d86041bcd86a72 = L.marker(
+                [47.3552343110059, 8.575974134297201],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_0055bb0f31e4fe7b00d891d82496416e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48a13cb45c0d0a43599f531e352ae341 = $(`<div id="html_48a13cb45c0d0a43599f531e352ae341" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 16h-17h</div>`)[0];
+                popup_0055bb0f31e4fe7b00d891d82496416e.setContent(html_48a13cb45c0d0a43599f531e352ae341);
+            
+        
+
+        marker_745152578660e51c37d86041bcd86a72.bindPopup(popup_0055bb0f31e4fe7b00d891d82496416e)
+        ;
+
+        
+    
+    
+            var marker_07cd7e3af71982370c53c88e00ce3224 = L.marker(
+                [47.37917257489309, 8.561056796992512],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_79ca110c2dbc95d0cf1d270a40c1bd22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b6920fef9a1371465f4ef1d9b1bd8f = $(`<div id="html_87b6920fef9a1371465f4ef1d9b1bd8f" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 17h-18h</div>`)[0];
+                popup_79ca110c2dbc95d0cf1d270a40c1bd22.setContent(html_87b6920fef9a1371465f4ef1d9b1bd8f);
+            
+        
+
+        marker_07cd7e3af71982370c53c88e00ce3224.bindPopup(popup_79ca110c2dbc95d0cf1d270a40c1bd22)
+        ;
+
+        
+    
+    
+            var marker_304e253da0111e4c1ebe8d8d58703ce9 = L.marker(
+                [47.383704401639335, 8.548199447074595],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_86ed5e29fb5ee0f3477d4dcc9742b578 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77d633e756dc111c88bb4d297a6428e8 = $(`<div id="html_77d633e756dc111c88bb4d297a6428e8" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 12h-13h</div>`)[0];
+                popup_86ed5e29fb5ee0f3477d4dcc9742b578.setContent(html_77d633e756dc111c88bb4d297a6428e8);
+            
+        
+
+        marker_304e253da0111e4c1ebe8d8d58703ce9.bindPopup(popup_86ed5e29fb5ee0f3477d4dcc9742b578)
+        ;
+
+        
+    
+    
+            var marker_9ecba285af8f8c9990e63c91a14d5041 = L.marker(
+                [47.382950712015344, 8.513749543060928],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_5d07dc2ea84be0d82920155c1e35759e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_673fc8b51624a6474d472a0354152409 = $(`<div id="html_673fc8b51624a6474d472a0354152409" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im August 2021 zwischen 00h-01h</div>`)[0];
+                popup_5d07dc2ea84be0d82920155c1e35759e.setContent(html_673fc8b51624a6474d472a0354152409);
+            
+        
+
+        marker_9ecba285af8f8c9990e63c91a14d5041.bindPopup(popup_5d07dc2ea84be0d82920155c1e35759e)
+        ;
+
+        
+    
+    
+            var marker_dac17af2431d6cc76650013724bb0e86 = L.marker(
+                [47.364716833108, 8.554609331431543],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_3e692e21f60f472fc2310fa8f7695440 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd49483292f726e881932e30309c14ca = $(`<div id="html_dd49483292f726e881932e30309c14ca" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 09h-10h</div>`)[0];
+                popup_3e692e21f60f472fc2310fa8f7695440.setContent(html_dd49483292f726e881932e30309c14ca);
+            
+        
+
+        marker_dac17af2431d6cc76650013724bb0e86.bindPopup(popup_3e692e21f60f472fc2310fa8f7695440)
+        ;
+
+        
+    
+    
+            var marker_ddb69f9d6c4fa4d6d3e594ed7530bb8a = L.marker(
+                [47.366303211365064, 8.544924503096881],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_ed32b227239ab6718cd4a77fd7ec23cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_719674164cf8f39eaef69ba9ed76ccc8 = $(`<div id="html_719674164cf8f39eaef69ba9ed76ccc8" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 08h-09h</div>`)[0];
+                popup_ed32b227239ab6718cd4a77fd7ec23cc.setContent(html_719674164cf8f39eaef69ba9ed76ccc8);
+            
+        
+
+        marker_ddb69f9d6c4fa4d6d3e594ed7530bb8a.bindPopup(popup_ed32b227239ab6718cd4a77fd7ec23cc)
+        ;
+
+        
+    
+    
+            var marker_08353322eaea8a6bee76749e0e86cbe4 = L.marker(
+                [47.37859672919029, 8.533896757951569],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_3b559f980adf5a0fec38c2b6d9f2f5ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a1c750e57eb825c0b3a33f0432ea4b3 = $(`<div id="html_5a1c750e57eb825c0b3a33f0432ea4b3" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im September 2021 zwischen 11h-12h</div>`)[0];
+                popup_3b559f980adf5a0fec38c2b6d9f2f5ec.setContent(html_5a1c750e57eb825c0b3a33f0432ea4b3);
+            
+        
+
+        marker_08353322eaea8a6bee76749e0e86cbe4.bindPopup(popup_3b559f980adf5a0fec38c2b6d9f2f5ec)
+        ;
+
+        
+    
+    
+            var marker_2560e553a991de8fc3320655dc8b719b = L.marker(
+                [47.41726985033071, 8.544883234461958],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_ae83f18e9fb3520754bbd1da656c4fce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_543c6f90828827d870cd93318a890d46 = $(`<div id="html_543c6f90828827d870cd93318a890d46" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juni 2021 zwischen 10h-11h</div>`)[0];
+                popup_ae83f18e9fb3520754bbd1da656c4fce.setContent(html_543c6f90828827d870cd93318a890d46);
+            
+        
+
+        marker_2560e553a991de8fc3320655dc8b719b.bindPopup(popup_ae83f18e9fb3520754bbd1da656c4fce)
+        ;
+
+        
+    
+    
+            var marker_928741aeaec7f8daeba469bc3dc7deb0 = L.marker(
+                [47.39390202243708, 8.505519179578132],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_de0ed2be681a9810a4526584105612d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_294ca8f2be5ada7320311b652ce1d53f = $(`<div id="html_294ca8f2be5ada7320311b652ce1d53f" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 02h-03h</div>`)[0];
+                popup_de0ed2be681a9810a4526584105612d7.setContent(html_294ca8f2be5ada7320311b652ce1d53f);
+            
+        
+
+        marker_928741aeaec7f8daeba469bc3dc7deb0.bindPopup(popup_de0ed2be681a9810a4526584105612d7)
+        ;
+
+        
+    
+    
+            var marker_4295058bfb3d221fa2dbe2ae41e65be9 = L.marker(
+                [47.379083426283636, 8.544183315846633],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_87c0e863678304a12e7bd9156615006a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_865033537025442428565b508462a235 = $(`<div id="html_865033537025442428565b508462a235" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im August 2021 zwischen 16h-17h</div>`)[0];
+                popup_87c0e863678304a12e7bd9156615006a.setContent(html_865033537025442428565b508462a235);
+            
+        
+
+        marker_4295058bfb3d221fa2dbe2ae41e65be9.bindPopup(popup_87c0e863678304a12e7bd9156615006a)
+        ;
+
+        
+    
+    
+            var marker_f8c64919315a5c247b735d11cd2c8c5d = L.marker(
+                [47.37452588946902, 8.540102986314542],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_b5e3ee7a462fcec4f5eaa985e04f5d91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15f409b5b3a88e48df46bc4c8c8b785e = $(`<div id="html_15f409b5b3a88e48df46bc4c8c8b785e" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Mai 2021 zwischen 18h-19h</div>`)[0];
+                popup_b5e3ee7a462fcec4f5eaa985e04f5d91.setContent(html_15f409b5b3a88e48df46bc4c8c8b785e);
+            
+        
+
+        marker_f8c64919315a5c247b735d11cd2c8c5d.bindPopup(popup_b5e3ee7a462fcec4f5eaa985e04f5d91)
+        ;
+
+        
+    
+    
+            var marker_2363ab33890500b0ff7cb3a922a7039e = L.marker(
+                [47.387555038419194, 8.519657007663637],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_867d66f04c4bdd6ed50710f5470d638d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ef8240ec1c23be03bee6fe10f4c772e = $(`<div id="html_0ef8240ec1c23be03bee6fe10f4c772e" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 01h-02h</div>`)[0];
+                popup_867d66f04c4bdd6ed50710f5470d638d.setContent(html_0ef8240ec1c23be03bee6fe10f4c772e);
+            
+        
+
+        marker_2363ab33890500b0ff7cb3a922a7039e.bindPopup(popup_867d66f04c4bdd6ed50710f5470d638d)
+        ;
+
+        
+    
+    
+            var marker_cf9ed75ce2cda42bf2167c292c6e3f07 = L.marker(
+                [47.3665657828879, 8.545684625632248],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_239e0618491c7f3a21805b6a354ae9d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50e60a3759939977de5dd53d0fdb93bc = $(`<div id="html_50e60a3759939977de5dd53d0fdb93bc" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Oktober 2021 zwischen 15h-16h</div>`)[0];
+                popup_239e0618491c7f3a21805b6a354ae9d0.setContent(html_50e60a3759939977de5dd53d0fdb93bc);
+            
+        
+
+        marker_cf9ed75ce2cda42bf2167c292c6e3f07.bindPopup(popup_239e0618491c7f3a21805b6a354ae9d0)
+        ;
+
+        
+    
+    
+            var marker_d13bf36999021f86a74885a5f764f1ec = L.marker(
+                [47.3703911964316, 8.556634811685218],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_09d7cc9dbc189a08de953be94fa32775 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed6bfd958c7518c9cb1bec6f5f764ab8 = $(`<div id="html_ed6bfd958c7518c9cb1bec6f5f764ab8" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Oktober 2021 zwischen 02h-03h</div>`)[0];
+                popup_09d7cc9dbc189a08de953be94fa32775.setContent(html_ed6bfd958c7518c9cb1bec6f5f764ab8);
+            
+        
+
+        marker_d13bf36999021f86a74885a5f764f1ec.bindPopup(popup_09d7cc9dbc189a08de953be94fa32775)
+        ;
+
+        
+    
+    
+            var marker_9962ed0756e3742bde291d5c8ab3d12c = L.marker(
+                [47.369784138488036, 8.508664416215135],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_bbf370469c382cdd4104d3b84f1d3bf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f7129eb8cf6d2158b65cf7dd2d4514e = $(`<div id="html_7f7129eb8cf6d2158b65cf7dd2d4514e" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Mai 2021 zwischen 16h-17h</div>`)[0];
+                popup_bbf370469c382cdd4104d3b84f1d3bf8.setContent(html_7f7129eb8cf6d2158b65cf7dd2d4514e);
+            
+        
+
+        marker_9962ed0756e3742bde291d5c8ab3d12c.bindPopup(popup_bbf370469c382cdd4104d3b84f1d3bf8)
+        ;
+
+        
+    
+    
+            var marker_334bb49416532245eea31f540983857f = L.marker(
+                [47.426256135174235, 8.536361569157847],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_503c28e3be775c8fc48d193cc9275a21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8850c42718403ce6046e86d107bd1af1 = $(`<div id="html_8850c42718403ce6046e86d107bd1af1" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im August 2021 zwischen 13h-14h</div>`)[0];
+                popup_503c28e3be775c8fc48d193cc9275a21.setContent(html_8850c42718403ce6046e86d107bd1af1);
+            
+        
+
+        marker_334bb49416532245eea31f540983857f.bindPopup(popup_503c28e3be775c8fc48d193cc9275a21)
+        ;
+
+        
+    
+    
+            var marker_d57f6911ab4834d225630485fb7cd1a9 = L.marker(
+                [47.37226125226987, 8.526589813093064],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_e361211681e402ffabb87aad21719cb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_482e729e6c1d314dc59794cafb0e0bfe = $(`<div id="html_482e729e6c1d314dc59794cafb0e0bfe" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Dezember 2021 zwischen 11h-12h</div>`)[0];
+                popup_e361211681e402ffabb87aad21719cb6.setContent(html_482e729e6c1d314dc59794cafb0e0bfe);
+            
+        
+
+        marker_d57f6911ab4834d225630485fb7cd1a9.bindPopup(popup_e361211681e402ffabb87aad21719cb6)
+        ;
+
+        
+    
+    
+            var marker_d8494ec57d5cd32aaf8760eaeda4c2b9 = L.marker(
+                [47.37613567352631, 8.515333564992993],
+                {}
+            ).addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+    
+        var popup_190272dcaa6893d212c98fc27216260a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_671a0716e7733285343970b51d1729e8 = $(`<div id="html_671a0716e7733285343970b51d1729e8" style="width: 100.0%; height: 100.0%;">Velo: Unfall mit Schwerverletzten im Juli 2021 zwischen 13h-14h</div>`)[0];
+                popup_190272dcaa6893d212c98fc27216260a.setContent(html_671a0716e7733285343970b51d1729e8);
+            
+        
+
+        marker_d8494ec57d5cd32aaf8760eaeda4c2b9.bindPopup(popup_190272dcaa6893d212c98fc27216260a)
+        ;
+
+        
+    
+    
+            tile_layer_cf6633eea749ee11347cdd36d606e922.addTo(map_4731555cf94e8e435596f35df99054f1);
+        
+</script>
+</html>
