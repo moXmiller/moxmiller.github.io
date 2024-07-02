@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9563cc1cbc69680f7c22e3350c616561 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9563cc1cbc69680f7c22e3350c616561" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9563cc1cbc69680f7c22e3350c616561 = L.map(
+                "map_9563cc1cbc69680f7c22e3350c616561",
+                {
+                    center: [47.38, 8.55],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_11138fb032f92c5a6e298eb478d5f47a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_11138fb032f92c5a6e298eb478d5f47a.addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+            var marker_26fb9aa54654c7e3c08febc8f86626bb = L.marker(
+                [47.38549250472404, 8.53046245198263],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_b02782a9427b49d2f235d0944085b6f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7abc85c214a317270bc9c5b651808415 = $(`<div id="html_7abc85c214a317270bc9c5b651808415" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im April 2011 zwischen 11h-12h</div>`)[0];
+                popup_b02782a9427b49d2f235d0944085b6f2.setContent(html_7abc85c214a317270bc9c5b651808415);
+            
+        
+
+        marker_26fb9aa54654c7e3c08febc8f86626bb.bindPopup(popup_b02782a9427b49d2f235d0944085b6f2)
+        ;
+
+        
+    
+    
+            var marker_2379afc913d89272f6d01d55310d5db2 = L.marker(
+                [47.38118607003096, 8.503238387310533],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_da9d6c69168d4704f520c51f998800f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_979ae5d950192b319ec9f4a5dc92cddd = $(`<div id="html_979ae5d950192b319ec9f4a5dc92cddd" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im Mai 2012 zwischen 22h-23h</div>`)[0];
+                popup_da9d6c69168d4704f520c51f998800f7.setContent(html_979ae5d950192b319ec9f4a5dc92cddd);
+            
+        
+
+        marker_2379afc913d89272f6d01d55310d5db2.bindPopup(popup_da9d6c69168d4704f520c51f998800f7)
+        ;
+
+        
+    
+    
+            var marker_9683340b5d66fe6d0590dbd6ea1d8993 = L.marker(
+                [47.41742801472401, 8.553699466114955],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_3b25b383b37d42a140d2a750930ccb85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b92c2496840a6d1bbd7d8866cea96b29 = $(`<div id="html_b92c2496840a6d1bbd7d8866cea96b29" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im September 2016 zwischen 06h-07h</div>`)[0];
+                popup_3b25b383b37d42a140d2a750930ccb85.setContent(html_b92c2496840a6d1bbd7d8866cea96b29);
+            
+        
+
+        marker_9683340b5d66fe6d0590dbd6ea1d8993.bindPopup(popup_3b25b383b37d42a140d2a750930ccb85)
+        ;
+
+        
+    
+    
+            var marker_a06b4deffdfbd465ac99ca08663deee8 = L.marker(
+                [47.365787887493184, 8.565660447459994],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_b5510bd1f2ccf2aaafa7057956927264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5298446b08eee2577b8afdabc066a2c6 = $(`<div id="html_5298446b08eee2577b8afdabc066a2c6" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im April 2018 zwischen 10h-11h</div>`)[0];
+                popup_b5510bd1f2ccf2aaafa7057956927264.setContent(html_5298446b08eee2577b8afdabc066a2c6);
+            
+        
+
+        marker_a06b4deffdfbd465ac99ca08663deee8.bindPopup(popup_b5510bd1f2ccf2aaafa7057956927264)
+        ;
+
+        
+    
+    
+            var marker_fd467002fb62e7a89bf5551c17115b6e = L.marker(
+                [47.359881060549, 8.59447452950149],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_f64243a7000d50c6a45569f0a7815f5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb3e7f6a8fbe7ec66d4a6495d8d1b4d9 = $(`<div id="html_cb3e7f6a8fbe7ec66d4a6495d8d1b4d9" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im November 2020 zwischen 21h-22h</div>`)[0];
+                popup_f64243a7000d50c6a45569f0a7815f5a.setContent(html_cb3e7f6a8fbe7ec66d4a6495d8d1b4d9);
+            
+        
+
+        marker_fd467002fb62e7a89bf5551c17115b6e.bindPopup(popup_f64243a7000d50c6a45569f0a7815f5a)
+        ;
+
+        
+    
+    
+            var marker_75755815a996a8e18ed7e014a2727bec = L.marker(
+                [47.377749856747414, 8.541599820140647],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_a6032c09a597c0899f37e36d17ef5c26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4e678b5bf41dbad3a5ae302a5c3cb88 = $(`<div id="html_b4e678b5bf41dbad3a5ae302a5c3cb88" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im September 2013 zwischen 09h-10h</div>`)[0];
+                popup_a6032c09a597c0899f37e36d17ef5c26.setContent(html_b4e678b5bf41dbad3a5ae302a5c3cb88);
+            
+        
+
+        marker_75755815a996a8e18ed7e014a2727bec.bindPopup(popup_a6032c09a597c0899f37e36d17ef5c26)
+        ;
+
+        
+    
+    
+            var marker_57298f5bfc9d60e9c60ed8d795f1dba5 = L.marker(
+                [47.38827066598376, 8.520082127021922],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_da213ec8bac7b6cb4e320159fd36d231 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833321136fd3cfc651b14a795dd84fd3 = $(`<div id="html_833321136fd3cfc651b14a795dd84fd3" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im Juni 2019 zwischen 14h-15h</div>`)[0];
+                popup_da213ec8bac7b6cb4e320159fd36d231.setContent(html_833321136fd3cfc651b14a795dd84fd3);
+            
+        
+
+        marker_57298f5bfc9d60e9c60ed8d795f1dba5.bindPopup(popup_da213ec8bac7b6cb4e320159fd36d231)
+        ;
+
+        
+    
+    
+            var marker_15106d807f524cc9e762af40643540cc = L.marker(
+                [47.38341675616886, 8.499336242808589],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_a5cfce734632418352815f24b78cd2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46a49dedc73add583c7a1a4b6073a013 = $(`<div id="html_46a49dedc73add583c7a1a4b6073a013" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im Juni 2020 zwischen 19h-20h</div>`)[0];
+                popup_a5cfce734632418352815f24b78cd2b7.setContent(html_46a49dedc73add583c7a1a4b6073a013);
+            
+        
+
+        marker_15106d807f524cc9e762af40643540cc.bindPopup(popup_a5cfce734632418352815f24b78cd2b7)
+        ;
+
+        
+    
+    
+            var marker_e532cf37d1e7386ae9e51f0b6a315020 = L.marker(
+                [47.35249192837376, 8.508079176608797],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_4801f83a72277554c8679901f40faf21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eddec3f444c89fcc8a950b8f6b8b8e6 = $(`<div id="html_9eddec3f444c89fcc8a950b8f6b8b8e6" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im November 2015 zwischen 15h-16h</div>`)[0];
+                popup_4801f83a72277554c8679901f40faf21.setContent(html_9eddec3f444c89fcc8a950b8f6b8b8e6);
+            
+        
+
+        marker_e532cf37d1e7386ae9e51f0b6a315020.bindPopup(popup_4801f83a72277554c8679901f40faf21)
+        ;
+
+        
+    
+    
+            var marker_30b685f2eaefcac04c894e23388b7ef8 = L.marker(
+                [47.37056126249615, 8.549263197863047],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_684bf5d357cad87e14601e1fd05e079a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7435f388220b07a16e8c597224a73fda = $(`<div id="html_7435f388220b07a16e8c597224a73fda" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im Februar 2017 zwischen 15h-16h</div>`)[0];
+                popup_684bf5d357cad87e14601e1fd05e079a.setContent(html_7435f388220b07a16e8c597224a73fda);
+            
+        
+
+        marker_30b685f2eaefcac04c894e23388b7ef8.bindPopup(popup_684bf5d357cad87e14601e1fd05e079a)
+        ;
+
+        
+    
+    
+            var marker_42488db0fd1f485873362909c9d44c01 = L.marker(
+                [47.384124675809545, 8.497668326098442],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_81975869cb1002a11e1067490ed1a509 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5160c592a35d30ff728c82be1df1ca1 = $(`<div id="html_c5160c592a35d30ff728c82be1df1ca1" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im April 2018 zwischen 10h-11h</div>`)[0];
+                popup_81975869cb1002a11e1067490ed1a509.setContent(html_c5160c592a35d30ff728c82be1df1ca1);
+            
+        
+
+        marker_42488db0fd1f485873362909c9d44c01.bindPopup(popup_81975869cb1002a11e1067490ed1a509)
+        ;
+
+        
+    
+    
+            var marker_f2603b6db4b7f0817f51c21a7ac3afe9 = L.marker(
+                [47.38267839756594, 8.507228093903903],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_8a1d02451e95871afd1f4d137b6b5401 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f39a77896ee746f9bf884739612d8574 = $(`<div id="html_f39a77896ee746f9bf884739612d8574" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im Oktober 2016 zwischen 18h-19h</div>`)[0];
+                popup_8a1d02451e95871afd1f4d137b6b5401.setContent(html_f39a77896ee746f9bf884739612d8574);
+            
+        
+
+        marker_f2603b6db4b7f0817f51c21a7ac3afe9.bindPopup(popup_8a1d02451e95871afd1f4d137b6b5401)
+        ;
+
+        
+    
+    
+            var marker_fb76793590280bc572dcfd4ff457f32b = L.marker(
+                [47.3637417600046, 8.575268601857397],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_91ca6d6960b325b067739f9a501c69ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a240d444947b0dfff162802468cc3f9a = $(`<div id="html_a240d444947b0dfff162802468cc3f9a" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im April 2020 zwischen 19h-20h</div>`)[0];
+                popup_91ca6d6960b325b067739f9a501c69ca.setContent(html_a240d444947b0dfff162802468cc3f9a);
+            
+        
+
+        marker_fb76793590280bc572dcfd4ff457f32b.bindPopup(popup_91ca6d6960b325b067739f9a501c69ca)
+        ;
+
+        
+    
+    
+            var marker_35c1ec38d72b8ec6d3b392eab115e9f6 = L.marker(
+                [47.375195698951714, 8.5187045210566],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_e317c977596fb559946a1fe0d2491195 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef155db5552d54f1c88ff097ad67756a = $(`<div id="html_ef155db5552d54f1c88ff097ad67756a" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im September 2022 zwischen 16h-17h</div>`)[0];
+                popup_e317c977596fb559946a1fe0d2491195.setContent(html_ef155db5552d54f1c88ff097ad67756a);
+            
+        
+
+        marker_35c1ec38d72b8ec6d3b392eab115e9f6.bindPopup(popup_e317c977596fb559946a1fe0d2491195)
+        ;
+
+        
+    
+    
+            var marker_3f35233b7b8c43d446f30b0610670783 = L.marker(
+                [47.37261500536759, 8.529139372582634],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_85b4ce53044f207a07fbe4c86a15ac99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43fcb8eae37074ce60267bce01b2a010 = $(`<div id="html_43fcb8eae37074ce60267bce01b2a010" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im Juni 2013 zwischen 14h-15h</div>`)[0];
+                popup_85b4ce53044f207a07fbe4c86a15ac99.setContent(html_43fcb8eae37074ce60267bce01b2a010);
+            
+        
+
+        marker_3f35233b7b8c43d446f30b0610670783.bindPopup(popup_85b4ce53044f207a07fbe4c86a15ac99)
+        ;
+
+        
+    
+    
+            var marker_0178d612b46e6de32a8dfb845d092c04 = L.marker(
+                [47.368940149638654, 8.524880219515435],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_bbef9fe79c402b2f6e8af0efb65510f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_389001a23e7be3c732c3c8d32b2ad02d = $(`<div id="html_389001a23e7be3c732c3c8d32b2ad02d" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im September 2017 zwischen 16h-17h</div>`)[0];
+                popup_bbef9fe79c402b2f6e8af0efb65510f9.setContent(html_389001a23e7be3c732c3c8d32b2ad02d);
+            
+        
+
+        marker_0178d612b46e6de32a8dfb845d092c04.bindPopup(popup_bbef9fe79c402b2f6e8af0efb65510f9)
+        ;
+
+        
+    
+    
+            var marker_3f4b6404cbc20420fcd9583ab7ee9a88 = L.marker(
+                [47.37750601326463, 8.498463793932718],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_d84516861bde9687cbbeb2b790fe1b9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1c0babd3fdbdfda15412911938f8e18 = $(`<div id="html_b1c0babd3fdbdfda15412911938f8e18" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im November 2019 zwischen 09h-10h</div>`)[0];
+                popup_d84516861bde9687cbbeb2b790fe1b9f.setContent(html_b1c0babd3fdbdfda15412911938f8e18);
+            
+        
+
+        marker_3f4b6404cbc20420fcd9583ab7ee9a88.bindPopup(popup_d84516861bde9687cbbeb2b790fe1b9f)
+        ;
+
+        
+    
+    
+            var marker_c6af1e6920fe488d04a442244f771cb0 = L.marker(
+                [47.36374189028237, 8.575255365377272],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_02337a63b350a7701e4baa7a47257b5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d6d31588ee62ffd7d1ca83f6942653d = $(`<div id="html_5d6d31588ee62ffd7d1ca83f6942653d" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im September 2020 zwischen 12h-13h</div>`)[0];
+                popup_02337a63b350a7701e4baa7a47257b5c.setContent(html_5d6d31588ee62ffd7d1ca83f6942653d);
+            
+        
+
+        marker_c6af1e6920fe488d04a442244f771cb0.bindPopup(popup_02337a63b350a7701e4baa7a47257b5c)
+        ;
+
+        
+    
+    
+            var marker_ea1eb61767740036b056844fa9012916 = L.marker(
+                [47.335642935438194, 8.54070268192838],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_f925e58d621363818d065cd8dfed9253 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f19bdac42a5c953e1f7eee9f92b57bc9 = $(`<div id="html_f19bdac42a5c953e1f7eee9f92b57bc9" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im Juli 2018 zwischen 08h-09h</div>`)[0];
+                popup_f925e58d621363818d065cd8dfed9253.setContent(html_f19bdac42a5c953e1f7eee9f92b57bc9);
+            
+        
+
+        marker_ea1eb61767740036b056844fa9012916.bindPopup(popup_f925e58d621363818d065cd8dfed9253)
+        ;
+
+        
+    
+    
+            var marker_130e69daff21a4139946edc7e6918b21 = L.marker(
+                [47.35107334456307, 8.581960764242037],
+                {}
+            ).addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+    
+        var popup_54b12e450e5a03704bcd2ebeab428613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57e734de56d03eb45872c2923a37bd29 = $(`<div id="html_57e734de56d03eb45872c2923a37bd29" style="width: 100.0%; height: 100.0%;">Velo: Tödlicher Unfall im September 2018 zwischen 18h-19h</div>`)[0];
+                popup_54b12e450e5a03704bcd2ebeab428613.setContent(html_57e734de56d03eb45872c2923a37bd29);
+            
+        
+
+        marker_130e69daff21a4139946edc7e6918b21.bindPopup(popup_54b12e450e5a03704bcd2ebeab428613)
+        ;
+
+        
+    
+    
+            tile_layer_11138fb032f92c5a6e298eb478d5f47a.addTo(map_9563cc1cbc69680f7c22e3350c616561);
+        
+</script>
+</html>
